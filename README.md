@@ -28,20 +28,17 @@ Here are the controls and what they mean:
 
 ![A screenshot of the program with this text in the main text box, Type your text here and press Enter. Hey, I Lost My Voice will speak your text for you. Or, you can paste text you want, Hey, I Lost My Voice to read aloud, then click the Play button to begin.](images/screenshot01.png)
 
-Speak on word: Turn on if you would like Voice to speak each word as it is written. Turn off if you would prefer to complete your sentence before Voice speaks it. When a shortcut expands, the replacement text is spoken immediately if Speak on word is checked.
+|Control|Description|Keyboard Shortcut|
+|:--|:--|:--|
+|Speak on word|Turn on if you would like Voice to speak each word as it is written. Turn off if you would prefer to complete your sentence before Voice speaks it. When a shortcut expands, the replacement text is spoken immediately if Speak on word is checked.||
+|Speak on Enter|Turn on to have Voice speak the last paragraph when you press Enter. Turn off to stop Voice from speaking when you press Enter.||
+|Rate|<p>Changes the rate of speech. Can be modified during speech.</p><p>Note: When using Hey, I Lost My Voice! As a text reader, the rate and volume of the reader voice are controlled by the Speak on Enter Rate and Volume controls.</p>|<p>When playing speech:</p><p>Up Arrow speeds up.</p><p>Down Arrow slows down.</p>|
+|Volume|The volume of speech. Can be modified during speech.||
+|&#x25c4;&#x25c4; Skip back|During speech playback, skips speech back a few seconds to re-speak words you might have missed.|Left arrow.|
+|&#x25ba; / &#x258c;&#x2590; Play/Pause|Starts or pauses speech. Play will speak the selected text or all text if no text is selected.|<p>Pause/Resume: Spacebar</p><p>Speak selection: Enter.</p>|
+|&#x25ba;&#x25ba; Skip ahead|During speech playback, skips speech ahead a few seconds to skip over words you don't need to hear.|Right arrow|
+|&#x25a0; Stop|Stops speech.|Esc.|
+|&#x2699; Settings|The Settings dialog box, which is not yet implemented.||
+|Voice|The voice to use for speech. Can be modified during speech.||
 
-Speak on Enter: Turn on to have Voice speak the last paragraph when you press Enter. Turn off to stop Voice from speaking when you press Enter.
-
-Rate: Changes the rate of speech. Can be modified during speech. Note: When using Hey, I Lost My Voice! As a text reader, the rate and volume of the reader voice are controlled by the Speak on Enter Rate and Volume controls. Keyboard shortcut when playing speech: Up Arrow speeds up the rate of speech, and Down Arrow slows down the rate of speech.
-
-Volume: The volume of speech. Can be modified during speech.
-
-&#x25c4;&#x25c4; Skip back: During speech playback, skips speech back a few seconds to re-speak words you might have missed. Keyboard shortcut: Left arrow.
-&#x25ba; / &#x258c;&#x2590; Play/Pause: Starts or pauses speech. Play will play play the selected text or all the text in the window if no text is selected. Keyboard shortcut for pause/resume: Spacebar. Keyboard shortcut to speak selection: Enter.
-&#x25ba;&#x25ba; Skip ahead: During speech playback, skips speech ahead a few seconds to skip over words you don't need to hear. Keyboard shortcut: Right arrow
-&#x25a0; Stop: Stops speech. Keyboard shortcut: Esc.
-&#x2699; Settings: The Settings dialog box, which is not yet implemented.
-
-Voice: The voice to use for speech. Can be modified during speech.
-
-Give it a try and find out how fun it is to have your computer speak for you and to you!
+Give Hey, I Lost My Voice! a try and find out how fun it is to have your computer speak for you and to you!
