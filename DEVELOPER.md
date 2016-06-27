@@ -39,8 +39,8 @@ The text reader state is further broken down to two states. One state is to read
 |State|Description|Values|
 |:--|:--|:--|
 |Human voice replacement|`highlightSpokenWord == false;`|Allows editing. Speak on Enter and Speak on word are active (if selected). Does not highlight words as they are spoken.|
-|Speak all text|'highlightSpokenWord == false; speakSelectionLength == 0;`|Does not allow editing. Speaks all text, highlighting each word as it is spoken.|
-|Speak selected text|'highlightSpokenWord == false; speakSelectionLength > 0;`|Does not allow editing. Speaks selected text, highlighting each word as it is spoken.|
+|Speak all text | 'highlightSpokenWord == false; speakSelectionLength == 0;` | Does not allow editing. Speaks all text, highlighting each word as it is spoken.|
+|Speak selected text | 'highlightSpokenWord == false; speakSelectionLength > 0;` | Does not allow editing. Speaks selected text, highlighting each word as it is spoken.|
 
 ### When typing
 
