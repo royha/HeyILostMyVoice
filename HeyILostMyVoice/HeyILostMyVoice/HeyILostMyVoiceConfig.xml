@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<HeyILostMyVoiceSettings>
+  <Settings>
+    <Font FontFamily="Calibri" FontSize="12" />
+  </Settings>
+  
+  <Shortcuts>
+    <Shortcut ShortcutText="pw" ReplacementText="Please wait while I compose my response." />
+
+    <Shortcut ShortcutText="h" ReplacementText="hello" />
+    <Shortcut ShortcutText="gb" ReplacementText="good-bye" />
+
+    <Shortcut ShortcutText="y" ReplacementText="yes" />
+    <Shortcut ShortcutText="n" ReplacementText="no" />
+    <Shortcut ShortcutText="pl" ReplacementText="please" />
+    <Shortcut ShortcutText="ty" ReplacementText="thank you" />
+    <Shortcut ShortcutText="yw" ReplacementText="you're welcome" />
+    <Shortcut ShortcutText="hy" ReplacementText="how are you?" />
+
+    <Shortcut ShortcutText="m" ReplacementText="mom" />
+    <Shortcut ShortcutText="d" ReplacementText="dad" />
+
+    <Shortcut ShortcutText="afaik" ReplacementText="as far as I know" />
+    <Shortcut ShortcutText="brb" ReplacementText="be right back" />
+    <Shortcut ShortcutText="degt" ReplacementText="don't even go there" />
+    <Shortcut ShortcutText="fwiw" ReplacementText="for what it's worth" />
+    <Shortcut ShortcutText="gbtw" ReplacementText="get back to work" />
+    <Shortcut ShortcutText="gg" ReplacementText="good game" />
+    <Shortcut ShortcutText="gtg" ReplacementText="got to go" />
+    <Shortcut ShortcutText="hbu" ReplacementText="how about you?" />
+    <Shortcut ShortcutText="ic" ReplacementText="I see" />
+    <Shortcut ShortcutText="idc" ReplacementText="I don't care" />
+    <Shortcut ShortcutText="idk" ReplacementText="I don't know" />
+    <Shortcut ShortcutText="imho" ReplacementText="in my humble opinion" />
+    <Shortcut ShortcutText="imo" ReplacementText="in my opinion" />
+    <Shortcut ShortcutText="iow" ReplacementText="in other words" />
+    <Shortcut ShortcutText="jk" ReplacementText="just kidding" />
+    <Shortcut ShortcutText="nmu" ReplacementText="not much. You?" />
+    <Shortcut ShortcutText="np" ReplacementText="no problem" />
+    <Shortcut ShortcutText="omw" ReplacementText="on my way" />
+    <Shortcut ShortcutText="ot" ReplacementText="off topic" />
+    <Shortcut ShortcutText="otoh" ReplacementText="on the other hand" />
+    <Shortcut ShortcutText="pebcak" ReplacementText="problem exists between keyboard and chair" />
+    <Shortcut ShortcutText="sh" ReplacementText="same here" />
+    <Shortcut ShortcutText="wfm" ReplacementText="works for me" />
+    <Shortcut ShortcutText="ybs" ReplacementText="you'll be sorry" />
+    <Shortcut ShortcutText="ymmv" ReplacementText="your mileage may vary" />
+    <Shortcut ShortcutText="yr" ReplacementText="yeah, right." />
+
+    <Shortcut ShortcutText="si" ReplacementText="that's the stupidest idea I've ever heard" />
+    <Shortcut ShortcutText="wtf" ReplacementText="whiskey tango foxtrot" />
+    <Shortcut ShortcutText="diaf" ReplacementText="die in a fire" />
+  </Shortcuts>
+
+  <OnHold>
+
+    <Pronunciation Type="Spelling" WrittenText="met" PronouncedText="sometimes 4" CaseSensitive="false" WholeWord="false" />
+    <Pronunciation Type="Spelling" WrittenText="et" PronouncedText="sometimes 5" CaseSensitive="false" WholeWord="false" />
+    <Pronunciation Type="Spelling" WrittenText="sometimes" PronouncedText="sometimes 1" CaseSensitive="false" WholeWord="false" />
+    <Pronunciation Type="Spelling" WrittenText="times" PronouncedText="sometimes 7" CaseSensitive="false" WholeWord="false" />
+    <Pronunciation Type="Spelling" WrittenText="time" PronouncedText="tyyme" CaseSensitive="false" WholeWord="false" />
+    <Pronunciation Type="Spelling" WrittenText="some" PronouncedText="sohhm" CaseSensitive="false" WholeWord="false" />
+    <Pronunciation Type="Spelling" WrittenText="metim" PronouncedText="meet him" CaseSensitive="false" WholeWord="false" />
+
+  </OnHold>
+
+  <Pronunciations>
+    <Pronunciation Type="Spelling" WrittenText="Obama" PronouncedText="Obahma" CaseSensitive="true" WholeWord="true" />
+    <Pronunciation Type="x-microsoft-ups" WrittenText="Hawaii" PronouncedText="S2 H AA . S2 V AA . S1 I + I" CaseSensitive="true" WholeWord="true" />
+    <Pronunciation Type="Spelling" WrittenText="Thief" PronouncedText="Sleep" CaseSensitive="false" WholeWord="false" />
+    <Pronunciation Type="x-microsoft-sapi" WrittenText="nasion" PronouncedText="n ey 1 - z iy ax n" CaseSensitive="true" WholeWord="false" />
+    <Pronunciation Type="x-microsoft-ups" WrittenText="whatchamacallit" PronouncedText="S1 W AA T . CH AX . M AX . S2 K AA L . IH T" CaseSensitive="false" WholeWord="true" />
+    <Pronunciation Type="Spelling" WrittenText="VeryLargeWord" PronouncedText="xt" CaseSensitive="true" WholeWord="false" />
+    <Pronunciation Type="x-microsoft-sapi" WrittenText="preauricular" PronouncedText="p r iy 2 - ow - r ih k 1 - y uw - l ax r" CaseSensitive="false" WholeWord="true" />
+    <Pronunciation Type="Spelling" WrittenText="Washington" PronouncedText="wa" CaseSensitive="true" WholeWord="true" />
+    <Pronunciation Type="x-microsoft-ups" WrittenText="Carlisle" PronouncedText="K AA L AI L" CaseSensitive="true" WholeWord="true" />
+    <Pronunciation Type="Spelling" WrittenText="Sequim" PronouncedText="Squim" CaseSensitive="true" WholeWord="true" />
+    <Pronunciation Type="x-microsoft-ups" WrittenText="llama" PronouncedText="J AA M AX" CaseSensitive="false" WholeWord="true" />
+    <Pronunciation Type="x-microsoft-ups" WrittenText="cell-phone" PronouncedText="S1 S EH L _&amp;amp; S1 F O N" CaseSensitive="false" WholeWord="true" />
+
+    <Pronunciation Type="Spelling" WrittenText="&lt;" PronouncedText=" less than " CaseSensitive="false" WholeWord="false" />
+    <Pronunciation Type="Spelling" WrittenText="&gt;" PronouncedText=" greater than " CaseSensitive="false" WholeWord="false" />
+    <Pronunciation Type="Spelling" WrittenText="&amp;" PronouncedText=" and " CaseSensitive="false" WholeWord="false" />
+
+  </Pronunciations>
+</HeyILostMyVoiceSettings>
