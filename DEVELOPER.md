@@ -10,7 +10,7 @@ The other design philosophy of Hey, I Lost My Voice! is to make the code easy to
 
 ## How Hey, I Lost My Voice! Works
 
-The Hey, I Lost My Voice! program examines the words entered by the user, and optionally speaks those words as they are being typed. If the user types a Shortcut word as defined by the `<Shortcuts>` element of the `HeyILostMyVoice.xml` file, the program replaces the shortcut with the replacement text, to allow for faster typing which can be helpful during conversations. When the user presses **Enter**, the entire paragraph is spoken. When the user clicks the **Play** button or presses Ctrl+Enter, all text in the text box is spoken.
+The Hey, I Lost My Voice! program examines the words entered by the user, and optionally speaks those words as they are being typed. If the user types a Shortcut word as defined by the `<Shortcuts>` element of the `HeyILostMyVoice.xml` file, the program replaces the shortcut with the replacement text, to allow for faster typing which can be helpful during conversations. When the user presses **Enter**, the entire paragraph is spoken. When the user clicks the **Play** button or presses **Ctrl+Enter**, all text in the text box is spoken.
 
 Hey, I Lost My Voice! converts the text in the text box to an SSML string that includes custom pronunciations for specific words as defined by the `<Pronunciations>` element of the `HeyILostMyVoice.xml` file. When the SSML string is created, it is spoken by using the Microsoft Speech API as implemented by the .NET 4.6 runtime.
 
