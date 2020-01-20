@@ -18,7 +18,7 @@ namespace HeyILostMyVoice
         /// <summary>
         /// Expands a shortcut into its replacement text and speaks that replacement text by using the word voice.
         /// </summary>
-        /// <returns>Returns <c>true</c> if a shortcut was found and expanded; otherwise, <c>false</c>.</returns>
+        /// <returns><c>true</c> if a shortcut was found and expanded; otherwise, <c>false</c>.</returns>
         private Boolean ExpandShortcut()
         {
             // If there are no shortcuts in the list, we're done here.
@@ -62,7 +62,6 @@ namespace HeyILostMyVoice
                 richTextBox1.SelectedText = replacementText;
 
                 // Speak the newly added text
-                // TODO: Does not check for pronunciation words in the replacement text.
                 if (checkBoxSpeakOnWord.Checked && voiceTalker.ParaSpeechState == SynthesizerState.Ready)
                     voiceTalker.WordSpeakAsync(replacementText);
             }
