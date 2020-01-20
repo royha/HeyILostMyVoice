@@ -1,10 +1,10 @@
-﻿/***************************** VoiceTalker.cs *********************************\
+﻿/***************************** VoiceTalker.cs ******************************\
 Module Name:  VoiceTalker.cs
 Project:      Hey, I Lost My Voice!
-Description:  Properties and methods used to access the SAPI speech synthesizer.
+Description:  Properties and methods used to use the SAPI speech synthesizer.
 
 MIT licence.
-\******************************************************************************/
+\***************************************************************************/
 
 using System;
 using System.Collections.ObjectModel;
@@ -168,7 +168,7 @@ namespace HeyILostMyVoice
         }
 
         /// <summary>
-        /// Stops all speech synthesis, often to allow for a new speech call.
+        /// Stops all speech synthesis, usually to allow for a new speech call.
         /// </summary>
         /// <seealso cref="https://msdn.microsoft.com/en-us/library/system.speech.synthesis.speechsynthesizer.speakasynccancelall(v=vs.110).aspx"/>
         /// <seealso cref="https://msdn.microsoft.com/en-us/library/system.speech.synthesis.speechsynthesizer.resume%28v=vs.110%29.aspx"/>

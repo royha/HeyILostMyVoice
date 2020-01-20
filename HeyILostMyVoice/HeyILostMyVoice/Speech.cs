@@ -329,19 +329,23 @@ namespace HeyILostMyVoice
 
 
         /// <summary>
-        /// Skips back 2 seconds, or roughly two words, whichever is greater, and searches 
-        /// back from there for the beginning of a word, then restarts speech at that location.
+        /// Skips back 12 seconds, and searches back from there for the beginning of a word, then 
+        /// restarts speech at that location.
+        /// Skips back 3 seconds if the shift key is down
         /// </summary>
-        private void SkipBack()
+        private void SkipBack(Boolean ShiftPressed)
         {
             // Store the current speech location.
             int intialWrittenLocation = speechLocationInWritten;
             int runningWrittenLocation = speechLocationInWritten;
 
+            // Number of seconds to skip.
+            double skipSeconds = ShiftPressed ? 3.0D : 12.0D;
+
             // This formula returns approximately the number of characters spoken per second
             // at any given speech rate. It does not, however, account for pauses in punctuation.
             double spokenCharsPerSec = Math.Pow(2, (voiceTalker.ParaRate + 11) * 0.15) * 4;
-            int totalCountToSkipBack = Convert.ToInt32(Math.Round(spokenCharsPerSec * 2.0D, 0));
+            int totalCountToSkipBack = Convert.ToInt32(Math.Round(spokenCharsPerSec * 8.0D, 0));
 
             // Search back the minimum number of words (in this case, two), counting the number of spoken characters.
             runningWrittenLocation = SearchBackToBeforeStartOfWord(writtenString, runningWrittenLocation);
@@ -405,20 +409,24 @@ namespace HeyILostMyVoice
 
 
         /// <summary>
-        /// Skips ahead 3 seconds, or roughly two words, whichever is greater, and searches 
-        /// ahead from there for the beginning of a word, then restarts speech at that location.
+        /// Skips ahead 12 seconds, and searches  ahead from there for the beginning of a word, then restarts 
+        /// speech at that location.
+        /// Skips ahead 3 seconds if the shift key is down.
         /// </summary>
-        private void SkipAhead()
+        private void SkipAhead(Boolean ShiftPressed)
         {
             // Store the current speech location.
             int intialLocation = speechLocationInWritten;
             int runningWrittenLocation = speechLocationInWritten;
             int spokenCharCount = 0;
 
+            // Number of seconds to skip.
+            double skipSeconds = ShiftPressed ? 3.0D : 12.0D;
+
             // This formula returns approximately the number of characters spoken per second
             // at any given speech rate. It does not, however, account for pauses in punctuation.
             double spokenCharsPerSec = Math.Pow(2, (voiceTalker.ParaRate + 11) * 0.15) * 4;
-            int totalCountToSkipAhead = Convert.ToInt32(Math.Round(spokenCharsPerSec * 3.0D, 0));
+            int totalCountToSkipAhead = Convert.ToInt32(Math.Round(spokenCharsPerSec * skipSeconds, 0));
 
             // Skip ahead by one sentence at a time until we have gone beyond the 3 second timeframe.
             while (runningWrittenLocation < writtenString.Length && spokenCharCount < totalCountToSkipAhead)

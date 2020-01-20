@@ -161,6 +161,7 @@ namespace HeyILostMyVoice
                 MessageBox.Show("Error loading the configuration XML file: " + ex.ToString() + "\nInnerException: " + ex.InnerException + "\nStack Trace:\n" + ex.StackTrace);
             }
 
+            // BUG: The text box does not have focus when the program starts up.
             Application.DoEvents();
             richTextBox1.Focus();
         }
@@ -232,13 +233,13 @@ namespace HeyILostMyVoice
                 // Left arrow skips back.
                 if (e.KeyCode == Keys.Left)
                 {
-                    SkipBack();
+                    SkipBack(e.Shift);
                 }
 
                 // Right arrow skips ahead.
                 if (e.KeyCode == Keys.Right)
                 {
-                    SkipAhead();
+                    SkipAhead(e.Shift);
                 }
 
                 // Up arrow increases rate.
@@ -278,6 +279,14 @@ namespace HeyILostMyVoice
             // Check for end of paragraph (right now, only checking for Enter)
             if (e.KeyCode == Keys.Enter)
             {
+                // If Ctrl+Enter is pressed, speak all the text.
+                if (e.Control)
+                {
+                    e.Handled = true;
+                    SpeakAll();
+                    Application.DoEvents();
+                    return;
+                }
                 // Selected text is spoken with the Enter key. I don't want the text 
                 // to disappear when Enter is pressed, so I say it's "Handled".
                 if (richTextBox1.SelectionLength > 0)
@@ -337,7 +346,7 @@ namespace HeyILostMyVoice
             if (highlightSpokenWord)
             {
                 // Skip backwards a bit in the text.
-                SkipBack();
+                SkipBack(false);
             }
 
             // Put the focus back on the text box.
@@ -405,7 +414,7 @@ namespace HeyILostMyVoice
             if (highlightSpokenWord)
             {
                 // Skip forwards a bit in the text.
-                SkipAhead();
+                SkipAhead(false);
             }
 
             // Put the focus back on the text box.
