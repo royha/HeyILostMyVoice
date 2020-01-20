@@ -34,9 +34,9 @@ Here are the controls and what they mean:
 |Speak on Enter|Turn on to have Voice speak the last paragraph when you press Enter. Turn off to stop Voice from speaking when you press Enter.||
 |Rate|<p>Changes the rate of speech. Can be modified during speech.</p><p>Note: When using Hey, I Lost My Voice! As a text reader, the rate and volume of the reader voice are controlled by the Speak on Enter Rate and Volume controls.</p>|<p>When playing speech:</p><p>Up Arrow speeds up.</p><p>Down Arrow slows down.</p>|
 |Volume|The volume of speech. Can be modified during speech.||
-|&#x25c4;&#x25c4; Skip back|During speech playback, skips speech back a few seconds to re-speak words you might have missed.|Left arrow to move back 12 seconds. Shift+Left arrow to move back 3 seconds.|
+|&#x25c4;&#x25c4; Skip back|During speech playback, skips speech back a few seconds to re-speak words you might have missed.|<p>Left arrow to move back 12 seconds.</p><p>Shift+Left arrow to move back 3 seconds.</p>|
 |&#x25ba; / &#x258c;&#x2590; Play/Pause|Starts or pauses speech. Play will speak the selected text or all text if no text is selected.|<p>Pause/Resume: Spacebar</p><p>Speak selection: Enter.</p><p>Speak all: Ctrl+Enter</p>|
-|&#x25ba;&#x25ba; Skip ahead|During speech playback, skips speech ahead a few seconds to skip over words you don't need to hear.|Right arrow to move ahead 12 seconds. Shift+Right Arrow to move ahead 3 seconds.|
+|&#x25ba;&#x25ba; Skip ahead|During speech playback, skips speech ahead a few seconds to skip over words you don't need to hear.|<p>Right arrow to move ahead 12 seconds.<p>Shift+Right Arrow to move ahead 3 seconds.</p>|
 |&#x25a0; Stop|Stops speech.|Esc.|
 |&#x2699; Settings|The Settings dialog box, which is not yet implemented.||
 |Voice|The voice to use for speech. Can be modified during speech.||
